@@ -1,2 +1,2 @@
-# seoresearch-serp-sdk
+# Google SERP Results in PHP
 PHP Serp SDK
