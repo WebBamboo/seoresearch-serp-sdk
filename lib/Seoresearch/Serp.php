@@ -4,9 +4,9 @@ namespace Seoresearch;
 class Serp
 {
     protected $id;
-    protected $location;
+    protected $location = 'US';
     protected $endpoint;
-    protected $mobile;
+    protected $mobile = false;
     protected $keyword;
     protected $status;
 
@@ -40,12 +40,16 @@ class Serp
 
     public function sendToApi(Sdk $sdk)
     {
-        $sdk->createSerp([
+        $response = $sdk->createSerp([
             'keyword' => $this->keyword,
             'mobile' => $this->mobile,
             'location' => $this->location,
             'endpoint' => $this->endpoint
         ]);
+        if(isset($response['id']))
+        {
+            $this->id = $response['id'];
+        }
     }
 
     public function __set($name, $value)
