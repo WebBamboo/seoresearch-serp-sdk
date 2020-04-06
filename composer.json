@@ -1,0 +1,21 @@
+{
+    "name": "webbamboo/seoresearch-serp-sdk",
+    "type": "library",
+    "description": "Your package description goes here",
+    "keywords": ["serp api php","google serp php","rank tracking php"],
+    "homepage": "https://seoresearch.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel Petrov",
+            "email": "contact@webbamboo.net",
+            "homepage": "http://webbamboo.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Seoresearch\\": "lib/Seoresearch/"
+        }
+    }
+}
