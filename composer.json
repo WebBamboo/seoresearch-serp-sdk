@@ -1,7 +1,7 @@
 {
     "name": "webbamboo/seoresearch-serp-sdk",
     "type": "library",
-    "description": "Your package description goes here",
+    "description": "Google search API for PHP. No proxies, no CAPTCHA solving and no parsing results, our API does all the work you just handle your business logic.",
     "keywords": ["serp api php","google serp php","rank tracking php"],
     "homepage": "https://seoresearch.net",
     "license": "MIT",
