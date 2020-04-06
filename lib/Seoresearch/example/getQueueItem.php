@@ -9,4 +9,7 @@ $apiSecret = 'YOUR_API_SECRET';
 
 $sdk = new Sdk($apiKey, $apiSecret);
 
-var_dump($sdk->webhook($_POST, true));
+$serp = new Serp();
+$serp->fromId($sdk, 'YOUR_SERP_ID');
+
+var_dump($serp);
