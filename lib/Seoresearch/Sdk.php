@@ -74,6 +74,6 @@ class Sdk
 
     private function getApiEndpoint($apiMethod)
     {
-        return sprintf('https://app.seoresearch.net%s?apiKey=%s&secret=%s', $apiMethod, $this->apiKey, $this->secret);
+        return sprintf('https://app.seoresearch.net%s?apiKey=%s&secret=%s', $apiMethod, $this->apiKey, $this->apiSecret);
     }
 }
