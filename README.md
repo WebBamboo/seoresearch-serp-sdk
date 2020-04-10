@@ -1,5 +1,5 @@
 # Google SERP Results in PHP
-SEOResearch search API enables you to scrape Google search results straight from your code. It requires a [free registration](https://seoresearch.net) at Seoresearch.net
+SEOResearch SERP API enables you to scrape Google search results straight from your code. It requires a [free registration](https://seoresearch.net/google-search-api/) at Seoresearch.net
 # Quick start
 For composer ([Packagist](https://packagist.org/packages/webbamboo/seoresearch-serp-sdk)).
 ```bash
